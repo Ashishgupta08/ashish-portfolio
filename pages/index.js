@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Nav from './Nav';
+import Footer from './Footer';
 
 export default function Home() {
 
@@ -39,6 +40,10 @@ export default function Home() {
         </div>
         {/* <button className={styles.btn}>Click Me</button> */}
       </main>
+
+      <footer>
+        <Footer />
+      </footer>
 
     </div>
   )

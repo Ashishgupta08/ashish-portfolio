@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import Footer from './Footer'
 
 export default function Nav() {
     const navIcon = <svg width="1em" height="1em" viewBox="0 0 24 24"><g fill="none"><path d="M21 18H3v-2h18v2zm0-5H3v-2h18v2zm0-5H3V6h18v2z" fill="currentColor"></path></g></svg>
@@ -47,6 +48,9 @@ export default function Nav() {
                         </li>
                         <li className="mb-4 text-lg">
                             <Link href="/"><a>Blogs</a></Link>
+                        </li>
+                        <li>
+                            <Footer />
                         </li>
                     </ul>
                 </div>
