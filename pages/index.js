@@ -14,18 +14,27 @@ export default function Home() {
       <Nav />
       <main className="">
         <div className="mx-4 my-36 h-full">
-          <p className="text-4xl font-medium">Hi, I am</p>
+          <p className="text-4xl font-medium">Hi, I&#39;m</p>
           <h1 className="text-8xl font-semibold name-font my-3">Ashish Gupta</h1>
           <p className="text-3xl">Web Developer</p>
         </div>
 
-        <div className="mx-4 px-2">
-          <h2>- About Me</h2>
-          <p>
-            Hi, I am a Frontend Developer. I have been working on the MERN stack 
-            for about 6 months in this span I have developed multiple projects 
-            which helped me to enhance my skills. Yes, having your strong base really 
-            helps and hence I am open to adapting to whichever framework is required.
+        <div className="mx-4 px-2 text-justify">
+          <h2 className="text-gray-400 text-lg my-4">- About Me</h2>
+          <p className="my-4">
+            Hi, I am a Frontend Developer. I&#39;ve been working on the MERN stack
+            for about 8 months and in this span I&#39;ve developed multiple projects
+            which helped me to enhance my skills. Also, I&#39;ve written few blogs to
+            solidify my knowledge of core JavaScript and React concepts. Yes, having
+            your strong base really helps to learn any framework and I&#39;m open to
+            learn any new framework.
+          </p>
+          <p className="my-4">
+            Currently, I&#39;m working as Developer in Tata Consultancy Services since October 2020.
+            <br />
+            I joined Neog a Bootcamp for web developers, there I learned about React ecosystem, 
+            UI/UX, web performances, and tooling which helped me to grow overall, and equipped 
+            me with some of the latest technologies.
           </p>
         </div>
         {/* <button className={styles.btn}>Click Me</button> */}
