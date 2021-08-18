@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <Nav />
       <main className="">
-        <div className="mx-4 my-36 h-full">
+        <div className="mx-4 my-64">
           <p className="text-4xl font-medium">Hi, I&#39;m</p>
           <h1 className="text-8xl font-semibold name-font my-3">Ashish Gupta</h1>
           <p className="text-3xl">Web Developer</p>
