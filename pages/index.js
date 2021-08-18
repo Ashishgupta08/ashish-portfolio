@@ -19,8 +19,14 @@ export default function Home() {
           <p className="text-3xl">Web Developer</p>
         </div>
 
-        <div>
-          <h2>About Me</h2>
+        <div className="mx-4 px-2">
+          <h2>- About Me</h2>
+          <p>
+            Hi, I am a Frontend Developer. I have been working on the MERN stack 
+            for about 6 months in this span I have developed multiple projects 
+            which helped me to enhance my skills. Yes, having your strong base really 
+            helps and hence I am open to adapting to whichever framework is required.
+          </p>
         </div>
         {/* <button className={styles.btn}>Click Me</button> */}
       </main>
